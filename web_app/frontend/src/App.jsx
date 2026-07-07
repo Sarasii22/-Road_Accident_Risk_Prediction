@@ -568,7 +568,7 @@ function App() {
       <header className="app-header">
         <div className="brand-section">
           <h1>Road Accident Risk Predictor</h1>
-          <p>Proactive AI Driver Safety Assistant • University of Ruhuna (EC6301)</p>
+          <p>Proactive AI Driver Safety Assistant</p>
         </div>
         
         <div className={`status-badge ${apiStatus.healthy ? (apiStatus.fallback ? 'fallback' : 'healthy') : 'fallback'}`}>
